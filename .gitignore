@@ -1,0 +1,38 @@
+# Laravel cache and build artifacts
+/.phpunit.cache
+.phpunit.result.cache
+
+# Node modules and build output
+/node_modules
+/public/build
+/public/hot
+
+# Laravel specific storage and vendor directories
+/public/storage
+/storage/*.key
+/storage/pail
+/vendor
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# System/editor/project files
+.phpactor.json
+Homestead.json
+Homestead.yaml
+npm-debug.log
+yarn-error.log
+auth.json
+
+# IDEs & Editors
+/.idea
+/.vscode
+/.fleet
+/.nova
+/.zed
+
+# Optional: OS generated files
+.DS_Store
+Thumbs.db
