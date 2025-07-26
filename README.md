@@ -75,19 +75,3 @@ php artisan migrate --seed
 
 # 7. Serve the application
 php artisan serve
-
-🔐 Environment Setup (.env)
-env
-
-APP_NAME=TaskFlow
-APP_ENV=local
-APP_KEY=base64:...
-APP_DEBUG=true
-APP_URL=http://127.0.0.1:8000
-
-DB_CONNECTION=mysql
-DB_HOST=127.0.0.1
-DB_PORT=3306
-DB_DATABASE=taskflow_db
-DB_USERNAME=root
-DB_PASSWORD=your_password
